@@ -39,7 +39,7 @@ const CartModal = () => {
             <label htmlFor="price">
                 Price
                 <input
-                    type="text"
+                    type="number"
                     value={price}
                     onChange={(e) => setPrice(e.target.value)}
                 />
@@ -47,7 +47,7 @@ const CartModal = () => {
             <label htmlFor="quantity">
                 Quantity Available
                 <input
-                    type="text"
+                    type="number"
                     value={quantity}
                     onChange={(e) => setQuantity(e.target.value)}
                 />

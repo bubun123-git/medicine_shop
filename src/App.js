@@ -1,4 +1,3 @@
-
 import './App.css';
 import CartModal from './Cart/Cart.Modal';
 
